@@ -1,0 +1,147 @@
+footer
+{
+    padding: 15px 0;
+    margin-top: 45px;
+    color: white;
+}
+
+a,
+.nav-link
+{
+    color: #81ffff !important;
+}
+
+li.nav-item.active a.nav-link
+{
+    color:#e3efff !important
+}
+
+a:hover,
+li.nav-item.active a.nav-link:hover
+{
+    color: #04789b !important;
+}
+
+a:focus,
+li.nav-item.active a.nav-link:focus
+{
+    color: #c7ff00 !important;
+}
+
+.first-content
+{
+    margin-top: 55px;
+}
+
+.bg-nav-footer-custom
+{
+    background-color: #292377;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.navmenu
+{
+    margin-bottom: 25px;
+}
+
+.iconos
+{
+    padding: 0 15px;
+}
+
+.icons
+{
+    margin: 0 10px !important;
+    font-size: 18px;
+}
+
+.icons-text
+{
+    margin-right: 10px;
+}
+
+.content
+{
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+ul.dropdown-menu,
+ul.dropdown-menu li a:hover
+{
+    background-color: #292377;
+}
+
+.slide-images
+{
+    width: 100%;
+    max-width: 100%;
+}
+
+.btn-more
+{
+    background-color: #292377;
+    color: #81ffff;
+}
+
+.btn-more:hover
+{
+    background-color: #04789b !important;
+    color: white;
+}
+
+.btn-more:focus
+{
+    background-color: #0f5064 !important;
+    color: white;
+}
+
+@media (max-width: 991px)
+{
+    .text-responsive
+    {
+        margin-top: 25px;
+    }
+    .desktop-responsive
+    {
+        display: none;
+    }
+}
+
+@media (max-width: 1199px)
+{
+    .img-responsive-hide
+    {
+        display: none;
+    }  
+}
+@media (min-width: 1200px)
+{
+    .img-responsive-display
+    {
+        display: none;
+    }
+}
+
+@media all and (min-width: 992px)
+{
+	.navbar .nav-item .dropdown-menu{ display: none; }
+    .navbar .nav-item:hover .dropdown-menu{ display: block; }
+    .dropdown.submenu .dropdown-menu.dropdown-submenu
+    {
+        display: none !important;
+        margin: 0;
+    }
+    .dropdown.submenu:hover .dropdown-menu.dropdown-submenu
+    { 
+        display: block !important;
+        margin-top: -41px;
+        margin-left: 155px;
+    }
+    .navbar .nav-item .dropdown-menu, a.dropdown-toggle .dropdown-menu{ margin-top:0; }
+    .mobile-responsive
+    {
+        display: none !important;
+    }
+}
