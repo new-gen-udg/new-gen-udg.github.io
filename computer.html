@@ -58,7 +58,13 @@
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" onclick="location.href='./computer.html'" href="./computer.html" data-toggle="dropdown">Computer</a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="./computer.html#graphic-cards">Graphic Cards</a></li>
+                    <li class="dropdown submenu">
+                      <a class="dropdown-item" href="./computer.html#graphic-cards">Graphic Cards</a>
+                      <ul class="dropdown-menu dropdown-submenu">
+                        <li><a class="dropdown-item" href="./computer.html#nvidia">Nvidia</a></li>
+                        <li><a class="dropdown-item" href="./computer.html#amd">AMD</a></li>
+                      </ul>
+                    </li>
                   </ul>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
@@ -87,6 +93,8 @@
                 <li class="nav-item"><a class="nav-link" href="./nintendo.html#switch-lite">Nintendo - Switch Lite</a></li>
                 <li class="nav-item"><a class="nav-link" href="./computer.html">Computer</a></li>
                 <li class="nav-item"><a class="nav-link" href="./computer.html#graphic-cards">Computer - Graphic Cards</a></li>
+                <li class="nav-item"><a class="nav-link" href="./computer.html#nvidia">Graphic Cards - Nvidia</a></li>
+                <li class="nav-item"><a class="nav-link" href="./computer.html#amd">Graphic Cards - AMD</a></li>
                 <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
               </ul>
             </div>
@@ -95,7 +103,7 @@
     <!-- END NAV MENU -->
     <!-- WEB CONTENT -->
     <div class="container-fluid">
-      <div class="row first-content">
+      <div id="graphic-cards" class="row first-content">
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
             <img class="w-100 img-content" src="img/nvidiavsamd.webp" alt="AMD vs Nvidia">
         </div>
@@ -109,7 +117,7 @@
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
           <img class="w-100 img-content" src="img/nvidia.jpg" alt="Nvidia">
         </div>
-      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
+      <div id="nvidia" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
         <h3 class="edition-title">Nvidia</h3>
         <p>If you want to buy a graphics card today the most powerfull one you can buy it's an Nvidia branded one, this brand offers the most efficient and powerfull cards that are equipped with the last technologies aswell.</p>
         <p>Nvidia is also known for their stable drivers and collaborations with lots of game to make their graphics cards work better on them.</p>
@@ -120,7 +128,7 @@
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
           <img class="w-100 img-content" src="img/amd.webp" alt="AMD">
         </div>
-      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
+      <div id="amd" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
         <h3 class="edition-title">AMD</h3>
         <p>AMD graphics cards are as powerfull or more on brute force than Nvidia one's but don't have implemented all the new technologies that the Nvidia one's have.</p>
         <p>AMD is known for having always troubles when launching new products with their drivers and compatibilities, so we recomend that if your planning on adquire and AMD graphics card to better waith some time if is a new realeased product.</p>
